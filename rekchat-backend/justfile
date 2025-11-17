@@ -1,0 +1,4 @@
+set dotenv-load := true
+
+run:
+	fastapi dev src/main.py --port 8000
